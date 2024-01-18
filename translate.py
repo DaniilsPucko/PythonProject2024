@@ -64,18 +64,21 @@ file_path = 'english.txt'
 words_to_translate = read_txt_file(file_path)
 
 if words_to_translate is not None:
-    translate_to_latvian(words_to_translate)
-    translated_words = []
+    translated_words = translate_to_latvian(words_to_translate)
+    
+    if translated_words:
+        # Save translated words to Excel
+        excel_file_path = 'translated_words.xlsx'
+        workbook = openpyxl.Workbook()
+        sheet = workbook.active
+        for i, translation in enumerate(translated_words, start=1):
+            sheet.cell(row=i, column=1, value=translation)
 
-    # Save translated words to Excel
-    excel_file_path = 'translated_words.xlsx'
-    workbook = openpyxl.Workbook()
-    sheet = workbook.active
-    for i, translation in enumerate(translated_words, start=1):
-        sheet.cell(row=i, column=1, value=translation)
+        # Save the Excel file
+        workbook.save(excel_file_path)
+        print(f"Translated words saved to {excel_file_path}")
+    else:
+        print("No words found or translation unsuccessful.")
 
-    # Save the Excel file
-    workbook.save(excel_file_path)
-    print(f"Translated words saved to {excel_file_path}")
 else:
     print("No words found.")
