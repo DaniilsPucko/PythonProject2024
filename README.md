@@ -7,12 +7,9 @@
 ## **Nosaukums - _Automatizēts tulkotājs_ **
 ### **Projekta uzdevums**
 Mūsu projekta uzdevums bija izstrādāt programmu, kas ļauj automātiski tulkot tekstā failā "english.txt" norādītos angļu valodas vārdus
-uz vairākām valodām, izmantojot Bing tulkošanas servisu. <br/>
+latviešu, franču, krievu, vācu, portugāļu, spāņu un itāļu valodu izmantojot Bing tulkošanas servisu. <br/>
 Programma var tulkot jebkuru angļu valodas vārdu, kuru tulkojumu atbalsta Bing tulkotājs, un ieraksta strukturētus tulkojumus Excel
 failā "translated_words.xlsx" atbilstošajās kolonnās. <br/>
-Programma ievada angļu valodas vārdus no teksta faila "english.txt". <br/>
-Automātiski tulko šos vārdus uz latviešu, franču, krievu, vācu, portugāļu, spāņu un itāļu valodu izmantojot Bing tulkošanas servisu. <br/>
-Ieraksta strukturētus tulkojumus Excel failā, kur katrs tulkojums atrodas atsevišķā kolonnā. <br/>
 ### **Bibliotēkas**
 1. pandas - Datu apstrāde un manipulācija.
 2. openpyxl - Excel failu apstrāde un manipulācija.
