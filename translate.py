@@ -65,9 +65,11 @@ if words_to_translate is not None:
     translated_words_german = translate_to_language(words_to_translate, 'de')
     translated_words_portuguese = translate_to_language(words_to_translate, 'pt')
     translated_words_spanish = translate_to_language(words_to_translate, 'es')
+    translated_words_italian = translate_to_language(words_to_translate, 'it')
     
     if (translated_words_latvian and translated_words_french and translated_words_russian and
-        translated_words_german and translated_words_portuguese and translated_words_spanish):
+        translated_words_german and translated_words_portuguese and translated_words_spanish and
+        translated_words_italian):
         excel_file_path = 'translated_words.xlsx'
         workbook = openpyxl.Workbook()
         sheet = workbook.active
@@ -78,6 +80,7 @@ if words_to_translate is not None:
         sheet.cell(row=1, column=5, value='German Translation')
         sheet.cell(row=1, column=6, value='Portuguese Translation')
         sheet.cell(row=1, column=7, value='Spanish Translation')
+        sheet.cell(row=1, column=8, value='Italian Translation')
 
         # Set column widths and row height
         for col in range(1, 9):
@@ -90,6 +93,7 @@ if words_to_translate is not None:
             translation_german = translated_words_german.get(word, '')
             translation_portuguese = translated_words_portuguese.get(word, '')
             translation_spanish = translated_words_spanish.get(word, '')
+            translation_italian = translated_words_italian.get(word, '')
 
             sheet.cell(row=i, column=1, value=word)
             sheet.cell(row=i, column=2, value=translation_latvian)
@@ -98,6 +102,7 @@ if words_to_translate is not None:
             sheet.cell(row=i, column=5, value=translation_german)
             sheet.cell(row=i, column=6, value=translation_portuguese)
             sheet.cell(row=i, column=7, value=translation_spanish)
+            sheet.cell(row=i, column=8, value=translation_italian)
 
         workbook.save(excel_file_path)
         print(f"Translated words saved to {excel_file_path}")
