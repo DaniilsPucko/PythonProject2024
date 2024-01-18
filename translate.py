@@ -39,6 +39,7 @@ def translate_to_latvian(words):
             input_field = driver.find_element(By.ID, 'tta_input_ta')
             input_field.clear()
             input_field.send_keys(word)
+            time.sleep(2)
 
             # Wait for the translation to appear
             try:
