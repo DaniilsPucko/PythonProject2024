@@ -16,7 +16,7 @@ excel tabulā dažadās kolonnas.
 ### **Izmantošanas metodes**
 Programmu var izmantot dažadiem mērķiem. 1. Macībās - Eiropas studentiem, lasot tekstus Angļu valodā var <br/>
 iztulkot savā dzimta valodā. 2. Pirms ceļojuma uz Eiropas valstīm - var iztulkot angļu valodas frāzes, kurus <br/>
-ceļotājs grib izmantot citā valstī.
+ceļotājs grib izmantot citā valstī.3.
 ### **Ko var pievienot?**
 Turpmāk var pievienot:
 1. Vairāki tulkotāji - dažadi internētā pieejami tulkotāji var iztulkot vienus un tos pašus vārdus citādi<br/>
