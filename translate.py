@@ -42,9 +42,8 @@ def translate_to_latvian(words):
 
             # Wait for the translation to appear
             try:
-                translation = WebDriverWait(driver, 10).until(
-                    EC.presence_of_element_located((By.ID, 'tta_output_ta'))
-                ).text
+                find = driver.find_element(By.ID, 'tta_output_ta')
+                translation = find.get_attribute("value")
 
                 print(f"{word} (English) -> {translation} (Latvian)")
 
