@@ -27,10 +27,8 @@ Tā piedāvā praktisku un inovatīvu risinājumu, kas var atvieglot studentu dz
 
 ### **Ko var uzlabot?**
 Turpmāk var pievienot:
-1. Vairāki tulkotāji - dažadi internētā pieejami tulkotāji var iztulkot vienus un tos pašus vārdus citādi<br/>
-tādējādi var salidzināt tulkojumus un izvelēties labāko.
-2. Vairāk valodu - paplašināt automatizēta tulkotāja iespējas, tulkot ne tikai no Angļu valodas, un ne <br/>
-tikai uz Eiropas valodam.
+1. Vairāki tulkotāji - Dažādi internetā pieejamie tulkotāji var iztulkot vienus un tos pašus vārdus atšķirīgāk, tādējādi ļaujot lietotājam salīdzināt vairākus tulkojumus un izvēlēties visprecīzāko vai piemērotāko. Tas nodrošina lielāku elastību un izvēles brīvību, pielāgojot tulkojumu saskaņā ar lietotāja vajadzībām vai prasībām.
+2. Vairāk valodu - Paplašinot automatizētā tulkotāja iespējas, programma var tulkot ne tikai no angļu valodas, bet arī no citām valodām. Tāpat var tulkot ne tikai uz Eiropas valodām, bet arī uz valodām, kas pieder citiem valodu ģeogrāfiskajiem reģioniem. Tas padara programmu vēl universālāku un pielāgotu plašākam lietotāju lokam, nodrošinot iespēju izmantot to dažādos kontekstos un darba jomās.
 
 ### **Video**
 Saite uz video, kur ir parādīts mūsu programmatūras darbībā un rezultāts: <br/>
