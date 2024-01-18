@@ -6,17 +6,25 @@
 3. Arnis Pirožoks - 231RDB047
 ## **Nosaukums - _Automatizēts tulkotājs_ **
 ### **Projekta uzdevums**
-Izveidot programmu, kas nolasīs no faila english.txt tekstu un sadalīs to uz vardiem un teikumiem. <br/>
-Pēc vardu sadalīšanas katru Angļu valodas vārdu partulkos uz 7iem Eiropas valodam un saglābas rezultātus<br/>
-excel tabulā dažadās kolonnas.
+Mūsu projekta uzdevums bija izstrādāt programmu, kas ļauj automātiski tulkot tekstā failā "english.txt" norādītos angļu valodas vārdus
+uz vairākām valodām, izmantojot Bing tulkošanas servisu. <br/>
+Programma var tulkot jebkuru angļu valodas vārdu, kuru tulkojumu atbalsta Bing tulkotājs, un ieraksta strukturētus tulkojumus Excel
+failā "translated_words.xlsx" atbilstošajās kolonnās. <br/>
+Programma ievada angļu valodas vārdus no teksta faila "english.txt". <br/>
+Automātiski tulko šos vārdus uz latviešu, franču, krievu, vācu, portugāļu, spāņu un itāļu valodu izmantojot Bing tulkošanas servisu. <br/>
+Ieraksta strukturētus tulkojumus Excel failā, kur katrs tulkojums atrodas atsevišķā kolonnā. <br/>
 ### **Bibliotēkas**
 1. pandas - Datu apstrāde un manipulācija.
 2. openpyxl - Excel failu apstrāde un manipulācija.
 3. selenium (webdriver) - tīmekļa pārlūkprogrammās darbības automatizēšana.
 ### **Izmantošanas metodes**
-Programmu var izmantot dažadiem mērķiem. 1. Macībās - Eiropas studentiem, lasot tekstus Angļu valodā var <br/>
-iztulkot savā dzimta valodā. 2. Pirms ceļojuma uz Eiropas valstīm - var iztulkot angļu valodas frāzes, kurus <br/>
-ceļotājs grib izmantot citā valstī.3.
+Programmu var izmantot dažadiem mērķiem.
+1. Programma palīdz apzināt jaunas valodas. Tā ērti un ātri tulko dažādus angļu valodas vārdus latviešu, franču, krievu, vācu, portugāļu, <br/>
+spāņu un itāļu valodās, kas palīdz paplāšinat vārdu krājumu tās valodās.
+2. Efektīva valodu izmantošana: Ātri iegūstot tulkojumus vairākās valodās, studenti var veiksmīgāk komunicēt ar cilvēkiem no dažādām valstīm. <br/>
+Tas ir noderīgs gan akadēmiskajā vidē, gan arī ikdienas dzīvē.
+3. Apvieglina macības processu. Ir situācijas, kad vajag pātrulkot lielu vardu apjomu, kas nav ērti, jo vajag katru reizi no jauna rakstīt tos <br/>
+tulkotāja. Mūsu programma optimizēs šo processu, kas atvieglos studenta tulkojuma vajadzību un ērti strukturēs tulkojumus excel failā
 ### **Ko var pievienot?**
 Turpmāk var pievienot:
 1. Vairāki tulkotāji - dažadi internētā pieejami tulkotāji var iztulkot vienus un tos pašus vārdus citādi<br/>
