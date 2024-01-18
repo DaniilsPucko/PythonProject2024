@@ -26,7 +26,7 @@ def read_txt_file(english):
 
 def translate_to_latvian(words):
     driver = webdriver.Chrome()  # You may need to specify the path to your chromedriver executable
-    driver.get("https://www.bing.com/translator")
+    driver.get("https://www.bing.com/translator?to=lv&setlang=be")
     
     # Wait for the page to load
     try:
