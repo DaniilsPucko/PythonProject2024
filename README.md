@@ -6,19 +6,20 @@
 3. Arnis Pirožoks - 231RDB047
 ## **Nosaukums - _Automatizēts tulkotājs_ **
 ### **Projekta uzdevums**
-Izveidot programmu, kas no teksta faila saņems tekstu angļu valodā, sadalīs <br/>
-to atsevišķos teikumos un vārdos - saglaba tos massivā. Ar ciklu programa iet caur massivu <br/>
-un katru tas elementu tulko uz latviešu valodu dažados tulkotājos, kuri ir pieejami internetā.<br/>
-Pēc tulkojuma, gatavo vārdu saglaba excel failā, dažadas kolonnās, no dažadiem tulkotājiem.<br/>
+Izveidot programmu, kas nolasīs no faila english.txt tekstu un sadalīs to uz vardiem un teikumiem. <br/>
+Pēc vardu sadalīšanas katru Angļu valodas vārdu partulkos uz 7iem Eiropas valodam un saglābas rezultātus<br/>
+excel tabulā dažadās kolonnas.
 ### **Bibliotēkas**
 1. pandas - Datu apstrāde un manipulācija.
 2. openpyxl - Excel failu apstrāde un manipulācija.
 3. selenium (webdriver) - tīmekļa pārlūkprogrammās darbības automatizēšana.
 ### **Izmantošanas metodes**
-Programmu var izmantot lai tulkot nezināmus angļu valodas vārdus, piemēram, lasot tekstu angļu <br/>
-valodā. To var izdarīt modificējot teksta failu, pievienojot tam vārdus. Programma ērti un <br/>
-strukturizēti saglaba rezultātus Excel failā.
+Programmu var izmantot dažadiem mērķiem. 1. Macībās - Eiropas studentiem, lasot tekstus Angļu valodā var <br/>
+iztulkot savā dzimta valodā. 2. Pirms ceļojuma uz Eiropas valstīm - var iztulkot angļu valodas frāzes, kurus <br/>
+ceļotājs grib izmantot citā valstī.
 ### **Ko var pievienot?**
 Turpmāk var pievienot:
-1. Vairāku valodu atbalstu.
-2. Automatizēt vardu izveli no teksta, lai nevajadzētu manuāli pievienot vārdus teksta failam.
+1. Vairāki tulkotāji - dažadi internētā pieejami tulkotāji var iztulkot vienus un tos pašus vārdus citādi<br/>
+tādējādi var salidzināt tulkojumus un izvelēties labāko.
+2. Vairāk valodu - paplašināt automatizēta tulkotāja iespējas, tulkot ne tikai no Angļu valodas, un ne <br/>
+tikai uz Eiropas valodam.
