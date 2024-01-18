@@ -70,6 +70,11 @@ if words_to_translate is not None:
         sheet.cell(row=1, column=2, value='Latvian Translation')
         sheet.cell(row=1, column=3, value='French Translation')
 
+        sheet.column_dimensions['A'].width = 50
+        sheet.column_dimensions['B'].width = 50
+        sheet.column_dimensions['C'].width = 50
+
+
         for i, (word, translation_latvian) in enumerate(translated_words_latvian.items(), start=2):
             translation_french = translated_words_french.get(word, '')
             sheet.cell(row=i, column=1, value=word)
