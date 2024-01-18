@@ -24,10 +24,43 @@ def read_txt_file(english):
         print(f"File not found: {english}")
         return None
 
-file_path = 'english.txt'
-result = read_txt_file(file_path)
+def translate_to_latvian(words):
+    driver = webdriver.Chrome()  # You may need to specify the path to your chromedriver executable
+    driver.get("https://translate.google.com/")
+    
+    # Wait for the page to load
+    try:
+        element = WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.XPATH, '//textarea[@aria-label="Source text"]'))
+        )
+    finally:
+        for word in words:
+            # Find the input field and type the word
+            input_field = driver.find_element(By.XPATH, '//textarea[@aria-label="Source text"]')
+            input_field.clear()
+            input_field.send_keys(word)
 
-if result is not None:
-    print("Words in the file:", result)
+            # Wait for the translation to appear
+            try:
+                translation = WebDriverWait(driver, 10).until(
+                    EC.presence_of_element_located((By.XPATH, '//span[@jsname="W297wb"]'))
+                ).text
+
+                print(f"{word} (English) -> {translation} (Latvian)")
+
+            except Exception as e:
+                print(f"Translation failed for {word}: {e}")
+
+            # Pause for a moment before translating the next word
+            time.sleep(2)
+
+    driver.quit()
+
+# Example usage:
+file_path = 'english.txt'
+words_to_translate = read_txt_file(file_path)
+
+if words_to_translate is not None:
+    translate_to_latvian(words_to_translate)
 else:
     print("No words found.")
