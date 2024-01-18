@@ -24,6 +24,7 @@ Mūsu programma optimizē šo procesu, atvieglojot studenta tulkošanas vajadzī
 <br/>
 Šī programma ir lietderīgs rīks ne tikai valodu apguvē, bet arī ikdienas situācijās, kur ir nepieciešams ātri un precīzi nodot ziņas vai saprast nozīmi dažādās valodās. <br/>
 Tā piedāvā praktisku un inovatīvu risinājumu, kas var atvieglot studentu dzīvi un uzlabot viņu valodu prasmes.
+
 ### **Ko var uzlabot?**
 Turpmāk var pievienot:
 1. Vairāki tulkotāji - dažadi internētā pieejami tulkotāji var iztulkot vienus un tos pašus vārdus citādi<br/>
