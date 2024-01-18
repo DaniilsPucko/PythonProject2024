@@ -26,24 +26,24 @@ def read_txt_file(english):
 
 def translate_to_latvian(words):
     driver = webdriver.Chrome()  # You may need to specify the path to your chromedriver executable
-    driver.get("https://translate.google.com/")
+    driver.get("https://www.bing.com/translator")
     
     # Wait for the page to load
     try:
         element = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, '//textarea[@aria-label="Source text"]'))
+            EC.presence_of_element_located((By.ID, 'tta_input_ta'))
         )
     finally:
         for word in words:
             # Find the input field and type the word
-            input_field = driver.find_element(By.XPATH, '//textarea[@aria-label="Source text"]')
+            input_field = driver.find_element(By.ID, 'tta_input_ta')
             input_field.clear()
             input_field.send_keys(word)
 
             # Wait for the translation to appear
             try:
                 translation = WebDriverWait(driver, 10).until(
-                    EC.presence_of_element_located((By.XPATH, '//span[@jsname="W297wb"]'))
+                    EC.presence_of_element_located((By.ID, 'tta_output_ta'))
                 ).text
 
                 print(f"{word} (English) -> {translation} (Latvian)")
