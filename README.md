@@ -31,3 +31,7 @@ Turpmāk var pievienot:
 tādējādi var salidzināt tulkojumus un izvelēties labāko.
 2. Vairāk valodu - paplašināt automatizēta tulkotāja iespējas, tulkot ne tikai no Angļu valodas, un ne <br/>
 tikai uz Eiropas valodam.
+
+### **Video
+Saite uz video, kur ir parādīts mūsu programmatūras darbībā un rezultāts: <br/>
+https://youtu.be/SiU14G6SMsc
