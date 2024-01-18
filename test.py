@@ -50,7 +50,7 @@ def translate_to_language(words, target_language):
             except Exception as e:
                 print(f"Translation failed for {word}: {e}")
 
-            time.sleep(1)
+            time.sleep(2)
 
     driver.quit()
     return translated_dict
