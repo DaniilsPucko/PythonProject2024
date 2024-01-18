@@ -61,25 +61,30 @@ words_to_translate = read_txt_file(file_path)
 if words_to_translate is not None:
     translated_words_latvian = translate_to_language(words_to_translate, 'lv')
     translated_words_french = translate_to_language(words_to_translate, 'fr')
+    translated_words_russian = translate_to_language(words_to_translate, 'ru')
     
-    if translated_words_latvian and translated_words_french:
+    if translated_words_latvian and translated_words_french and translated_words_russian:
         excel_file_path = 'translated_words.xlsx'
         workbook = openpyxl.Workbook()
         sheet = workbook.active
         sheet.cell(row=1, column=1, value='English Word')
         sheet.cell(row=1, column=2, value='Latvian Translation')
         sheet.cell(row=1, column=3, value='French Translation')
+        sheet.cell(row=1, column=4, value='Russian Translation')
 
-        sheet.column_dimensions['A'].width = 50
-        sheet.column_dimensions['B'].width = 50
-        sheet.column_dimensions['C'].width = 50
-
+        # Set column widths
+        sheet.column_dimensions['A'].width = 30
+        sheet.column_dimensions['B'].width = 30
+        sheet.column_dimensions['C'].width = 30
+        sheet.column_dimensions['D'].width = 30
 
         for i, (word, translation_latvian) in enumerate(translated_words_latvian.items(), start=2):
             translation_french = translated_words_french.get(word, '')
+            translation_russian = translated_words_russian.get(word, '')
             sheet.cell(row=i, column=1, value=word)
             sheet.cell(row=i, column=2, value=translation_latvian)
             sheet.cell(row=i, column=3, value=translation_french)
+            sheet.cell(row=i, column=4, value=translation_russian)
 
         workbook.save(excel_file_path)
         print(f"Translated words saved to {excel_file_path}")
