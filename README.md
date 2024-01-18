@@ -16,12 +16,14 @@ failā "translated_words.xlsx" atbilstošajās kolonnās. <br/>
 3. selenium (webdriver) - tīmekļa pārlūkprogrammās darbības automatizēšana.
 ### **Izmantošanas metodes**
 Programmu var izmantot dažadiem mērķiem.
-1. Programma palīdz apzināt jaunas valodas. Tā ērti un ātri tulko dažādus angļu valodas vārdus latviešu, franču, krievu, vācu, portugāļu, <br/>
-spāņu un itāļu valodās, kas palīdz paplāšinat vārdu krājumu tās valodās.
+1. Programma palīdz iepazīt jaunas valodas, ērti un ātri tulkojot dažādus angļu valodas vārdus latviešu, franču, krievu, vācu, portugāļu, <br/>
+spāņu un itāļu valodās. Tas ne tikai paplašina vārdu krājumu šajās valodās, bet arī piedāvā iespēju plašāk saprast un izmantot to, ko piedāvā citi valodas reģioni.
 2. Efektīva valodu izmantošana: Ātri iegūstot tulkojumus vairākās valodās, studenti var veiksmīgāk komunicēt ar cilvēkiem no dažādām valstīm. <br/>
-Tas ir noderīgs gan akadēmiskajā vidē, gan arī ikdienas dzīvē.
-3. Apvieglina macības processu. Ir situācijas, kad vajag pātrulkot lielu vardu apjomu, kas nav ērti, jo vajag katru reizi no jauna rakstīt tos <br/>
-tulkotāja. Mūsu programma optimizēs šo processu, kas atvieglos studenta tulkojuma vajadzību un ērti strukturēs tulkojumus excel failā
+Tas ir noderīgs gan akadēmiskajā vidē, gan ikdienas dzīvē, palīdzot veidot daudzpusīgākas komunikācijas prasmes un sapratni par dažādu valodu un kultūru bagātību.
+3. Apvieglina mācību procesu: Ir situācijas, kad nepieciešams pārtaisīt lielu vārdu apjomu, kas nav ērti, jo jāveic katru reizi jauns ievades process tulkojot. <br/>
+Mūsu programma optimizē šo procesu, atvieglojot studenta tulkošanas vajadzības, un ērti strukturē tulkojumus excel failā, nodrošinot vieglu pārskatāmību un piekļuvi iegūtajai informācijai.
+Šī programma ir lietderīgs rīks ne tikai valodu apguvē, bet arī ikdienas situācijās, kur ir nepieciešams ātri un precīzi nodot ziņas vai saprast nozīmi dažādās valodās. <br/>
+Tā piedāvā praktisku un inovatīvu risinājumu, kas var atvieglot studentu dzīvi un uzlabot viņu valodu prasmes.
 ### **Ko var pievienot?**
 Turpmāk var pievienot:
 1. Vairāki tulkotāji - dažadi internētā pieejami tulkotāji var iztulkot vienus un tos pašus vārdus citādi<br/>
