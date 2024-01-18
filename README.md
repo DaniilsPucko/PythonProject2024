@@ -5,3 +5,4 @@
 2. Artems Petrovs - 231RDB077
 3. Arnis Pirožoks - 231RDB047
 ## **Nosaukums - _Automatizēts tulkotājs_ **
+### **Projekta uzdevums**
